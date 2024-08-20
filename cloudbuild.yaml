@@ -1,9 +1,9 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/interns-417211/mariam-web:v2', '.']
+    args: ['build', '-t', 'gcr.io/interns-417211/weather-web:v3', '.']
   
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/interns-417211/mariam-web:v2']
+    args: ['push', 'gcr.io/interns-417211/weather-web:v3']
 
 images:
-  - 'gcr.io/interns-417211/mariam-web:v2'
+  - 'gcr.io/interns-417211/weather-web:v3'
