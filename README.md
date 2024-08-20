@@ -5,7 +5,7 @@ Within this repository, you'll discover the essential source code and deployment
 ## Overview
 
 In this project, I'll walk you through building a Python weather app, containerizing it with Docker, and deploying it on Cloud Run. We'll leverage the OpenWeather API for live weather updates! 🐍🌦️ Moreover, the entire process will be automated with a CI/CD pipeline using Google Cloud Build! 🚀
-
+rrfrrr
 ## Key Highlights
 
 - 🐍 Developed the application using Python.
